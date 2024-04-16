@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         {/*Add Logo here!!*/}
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={} className="App-logo" alt="logo" />
         <p>
           {/* Replace the text with your own content */}
           Welcome to Maxixe Studios - Your source for beautiful jewellery and Horoscope insights!
