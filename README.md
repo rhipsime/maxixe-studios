@@ -68,3 +68,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+In the components folder:
+
+Header.jsx: Represents the header component of your website, likely containing navigation links.
+Home.jsx: Represents the main content of the home page.
+ProductPage.jsx: Represents the main content of the product page, where your items are displayed.
+ProductCard.jsx: Represents individual product cards used within the product page.
+HoroscopePage.jsx: Represents the main content of the horoscope page, where the horoscope generator is displayed.
+In the pages folder:
+
+Home.jsx: Represents the entire home page, combining different components as needed.
+Products.jsx: Represents the entire product page, combining different components as needed.
+Horoscope.jsx: Represents the entire horoscope page, combining different components as needed.
+This structure allows for a clear separation of concerns, making it easier to locate and modify specific components or pages as needed. It also follows common conventions used in React.js projects, which will make it easier for other developers to understand your project if they need to work on it in the future.
