@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
+import logo from './Assets/logo.png'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/*Add Logo here!!*/}
-        <img src={} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="logo" />
         <p>
           {/* Replace the text with your own content */}
           Welcome to Maxixe Studios - Your source for beautiful jewellery and Horoscope insights!
