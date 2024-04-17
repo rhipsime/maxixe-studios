@@ -20,8 +20,8 @@
 }
 
 .logo-container {
-    width: 100px; /* Adjust the size of the circular frame */
-    height: 100px; /* Adjust the size of the circular frame */
+    width: 85px; /* Adjust the size of the circular frame */
+    height: 85px; /* Adjust the size of the circular frame */
     border-radius: 50%; /* Make the container circular */
     overflow: hidden; /* Hide any overflow content */
     margin-right: 10px; /* Add some spacing between the logo and text */
