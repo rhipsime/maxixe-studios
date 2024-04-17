@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container'; // Import Container from react-bootstrap
 import logo from '../Assets/logo.png'; // Import your logo image
-import styles from '/Users/arie/maxixe-studios/src/components/Header.css'
+import '/Users/arie/maxixe-studios/src/components/Header.css'
 
 function Header() {
     return (
