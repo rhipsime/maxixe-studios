@@ -11,6 +11,7 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <Header />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
@@ -25,7 +26,6 @@ function App() {
             Explore Now
           </a>
         </header>
-        <Header />
         <Routes>
           <Route path="/" exact component={<Home />} />
           <Route path="/products" component={<Products/>} />
@@ -37,3 +37,4 @@ function App() {
 }
 
 export default App;
+
