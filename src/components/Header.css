@@ -6,4 +6,28 @@
 .custom-navbar {
     background-color: #FFC85F !important; /* Override Bootstrap's default */
     border-radius: 20px; /* Add curved edges */
+    padding: 10px 20px; /* Adjust padding as needed */
+    width: 800px; /* Set a specific width for the navbar */
+    height: 100px; /* Set the height to one-quarter of the width */
+    margin: 0 auto; /* Center the navbar horizontally */
+}
+
+
+/* Center the navbar horizontally */
+.container {
+    max-width: 800px; /* Set a maximum width for the navbar */
+    margin: 0 auto; /* Center the navbar horizontally */
+}
+
+.logo-container {
+    width: 100px; /* Adjust the size of the circular frame */
+    height: 100px; /* Adjust the size of the circular frame */
+    border-radius: 50%; /* Make the container circular */
+    overflow: hidden; /* Hide any overflow content */
+    margin-right: 10px; /* Add some spacing between the logo and text */
+}
+
+.logo {
+    width: 100%; /* Make the logo fill the circular container */
+    height: auto; /* Preserve aspect ratio */
 }

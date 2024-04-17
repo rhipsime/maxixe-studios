@@ -1,13 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import styles from './Header.css'; 
+import Container from 'react-bootstrap/Container'; // Import Container from react-bootstrap
+import logo from '../Assets/logo.png'; // Import your logo image
+import styles from '/Users/arie/maxixe-studios/src/components/Header.css'
 
-const Header = () => {
+function Header() {
     return (
-        <header className="maxixe-header">
-            <nav className="navbar navbar-expand-lg navbar-light custom-navbar">
-                <div className="container">
-                    <Link className="navbar-brand" to="/">Maxixe Studios</Link>
+        <header>
+            <Container> {/* Wrap the navigation bar within a Container */}
+                <nav className="navbar navbar-expand-lg navbar-light custom-navbar">
+                    <Link className="navbar-brand" to="/">
+                    <div className="logo-container">
+                            <img src={logo} className="logo" alt="Maxixe Studios Logo" />
+                        </div>
+                    </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -24,11 +30,16 @@ const Header = () => {
                             </li>
                         </ul>
                     </div>
-                </div>
-            </nav>
+                </nav>
+            </Container>
         </header>
     );
 }
 
 export default Header;
+
+
+
+
+
 
