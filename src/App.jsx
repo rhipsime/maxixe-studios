@@ -28,8 +28,8 @@ function App() {
         </header>
         <Routes>
           <Route path="/" exact component={<Home />} />
-          <Route path="/products" component={<Products/>} />
-          <Route path="/horoscope" component={<Horoscope />} />
+          <Route path="/Products" component={<Products/>} />
+          <Route path="/Horoscope" component={<Horoscope />} />
         </Routes>
       </div>
     </Router>
