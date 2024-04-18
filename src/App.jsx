@@ -1,3 +1,4 @@
+// App.jsx
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
@@ -5,17 +6,16 @@ import Header from './components/Header';
 import Home from './pages/Home';
 import Products from './pages/Products';
 import Horoscope from './pages/Horoscope';
-import logo from './Assets/logo.png';
 
 function App() {
   return (
     <Router>
       <div className="App">
-      <Header /> {/* Render the Header component */}
+        <Header />
         <Routes>
-          <Route path="/" exact component={<Home />} />
-          <Route path="/Products" component={<Products/>} />
-          <Route path="/Horoscope" component={<Horoscope />} />
+          <Route path="/" exact element={<Home />} />
+          <Route path="/Products" elementt={<Products/>} />
+          <Route path="/Horoscope" element={<Horoscope />} />
         </Routes>
       </div>
     </Router>
@@ -23,4 +23,5 @@ function App() {
 }
 
 export default App;
+
 

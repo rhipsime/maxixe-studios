@@ -1,21 +1,16 @@
+// CarouselComponent.jsx
 import React from 'react';
-import { Carousel, Container, Row, Col } from 'react-bootstrap'; // Import Carousel, Container, Row, and Col from react-bootstrap
-import backgroundImage from '../Assets/background.png'; // Import background image
-import maxixe0 from '../Assets/maxixe0.jpeg'
-import maxixe1 from '../Assets/maxixe1.jpeg'
-import maxixe2 from '../Assets/maxixe2.jpeg'
-import maxixe3 from '../Assets/maxixe3.jpeg'
-import maxixe4 from '../Assets/maxixe4.jpeg'
+import { Carousel } from 'react-bootstrap';
+import maxixe0 from '../Assets/maxixe0.jpeg';
+import maxixe1 from '../Assets/maxixe1.jpeg';
+import maxixe2 from '../Assets/maxixe2.jpeg';
+import maxixe3 from '../Assets/maxixe3.jpeg';
+import maxixe4 from '../Assets/maxixe4.jpeg';
 
-function Home() {
+function CarouselComponent() {
     return (
-        <div style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover' }}>
-            <Container>
-                <Row>
-                    <Col md={3}></Col> {/* Empty column on the left */}
-                    <Col md={6}>
-                        <Carousel>
-                            <Carousel.Item>
+        <Carousel>
+           <Carousel.Item>
                                 <img
                                     className="d-block w-100"
                                     src={maxixe0}
@@ -69,14 +64,10 @@ function Home() {
                                     <h3>First slide label</h3>
                                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                                 </Carousel.Caption>
-                            </Carousel.Item>
-                        </Carousel>
-                    </Col>
-                    <Col md={3}></Col> {/* Empty column on the right */}
-                </Row>
-            </Container>
-        </div>
+                            </Carousel.Item> 
+            {/* Add more carousel items as needed */}
+        </Carousel>
     );
 }
 
-export default Home;
+export default CarouselComponent;
