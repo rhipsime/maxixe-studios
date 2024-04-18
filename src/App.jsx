@@ -2,6 +2,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+import '/Users/arie/maxixe-studios/src/App.css' ; // Import your custom app styles
 import Header from './components/Header';
 import Home from './pages/Home';
 import Products from './pages/Products';
