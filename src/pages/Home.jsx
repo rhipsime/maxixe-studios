@@ -8,11 +8,11 @@ function Home() {
         <div style={{ backgroundColor: '#FAF9F8', paddingTop: '200px', paddingBottom: '200px' }}> {/* Background color under the header */}
             <Container>
                 <Row>
-                    <Col md={3}></Col> {/* Empty column on the left */}
-                    <Col md={6}>
+                    <Col md={1}></Col> {/* Empty column on the left */}
+                    <Col md={10}>
                         <CarouselComponent /> {/* Use the carousel component */}
                     </Col>
-                    <Col md={3}></Col> {/* Empty column on the right */}
+                    <Col md={1}></Col> {/* Empty column on the right */}
                 </Row>
             </Container>
         </div>

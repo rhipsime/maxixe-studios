@@ -15,10 +15,11 @@ function CarouselComponent() {
                                     className="d-block w-100"
                                     src={maxixe0}
                                     alt="First slide"
+                                    style={{ objectFit: 'cover', height: '500px', width: '600px' }} /* Adjust the height as needed */
                                 />
                                 <Carousel.Caption>
-                                    <h3>First slide label</h3>
-                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                    <h3>maxixemagic</h3>
+                                    <p>2023 Shoot</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
@@ -26,10 +27,11 @@ function CarouselComponent() {
                                     className="d-block w-100"
                                     src={maxixe1}
                                     alt="First slide"
+                                    style={{ objectFit: 'cover', height: '500px', width: '600px'  }} /* Adjust the height as needed */
                                 />
                                 <Carousel.Caption>
-                                    <h3>First slide label</h3>
-                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                <h3>maxixemagic</h3>
+                                    <p>2023 Shoot</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
@@ -37,10 +39,11 @@ function CarouselComponent() {
                                     className="d-block w-100"
                                     src={maxixe2}
                                     alt="First slide"
+                                    style={{ objectFit: 'cover', height: '500px' , width: '600px' }} /* Adjust the height as needed */
                                 />
                                 <Carousel.Caption>
-                                    <h3>First slide label</h3>
-                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                <h3>maxixemagic</h3>
+                                    <p>2023 Shoot</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
@@ -48,10 +51,11 @@ function CarouselComponent() {
                                     className="d-block w-100"
                                     src={maxixe3}
                                     alt="First slide"
+                                    style={{ objectFit: 'cover', height: '500px', width: '600px' }} /* Adjust the height as needed */
                                 />
                                 <Carousel.Caption>
-                                    <h3>First slide label</h3>
-                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                 <h3>maxixemagic</h3>
+                                    <p>2023 Shoot</p>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
@@ -59,10 +63,11 @@ function CarouselComponent() {
                                     className="d-block w-100"
                                     src={maxixe4}
                                     alt="First slide"
+                                    style={{ objectFit: 'cover', height: '500px', width: '600px' }} /* Adjust the height as needed */
                                 />
                                 <Carousel.Caption>
-                                    <h3>First slide label</h3>
-                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                <h3>maxixemagic</h3>
+                                    <p>2023 Shoot</p>
                                 </Carousel.Caption>
                             </Carousel.Item> 
             {/* Add more carousel items as needed */}
