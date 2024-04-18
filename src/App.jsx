@@ -11,23 +11,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Header />
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Welcome to Maxixe Studios - Your source for Crystal Jewellery, Tarot sessions and Horoscope insights!
-
-            Maxixe Magic
-          </p>
-          <a
-            className="App-link"
-            href="https://maxixestudios.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Explore Now
-          </a>
-        </header>
+      <Header /> {/* Render the Header component */}
         <Routes>
           <Route path="/" exact component={<Home />} />
           <Route path="/Products" component={<Products/>} />
