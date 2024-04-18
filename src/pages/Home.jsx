@@ -12,7 +12,7 @@ function Home() {
             {/* Background image above the carousel */}
             <div style={{ 
                 backgroundImage: `url(${backgroundImageAbove})`,
-                backgroundSize: 'contain',
+                backgroundSize: 'cover',
                 paddingTop: '200px', 
                 paddingBottom: '100px',
                 width: '100%' // Ensure the div stretches out across the webpage
