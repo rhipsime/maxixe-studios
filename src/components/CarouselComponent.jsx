@@ -15,7 +15,7 @@ function CarouselComponent() {
                                     className="d-block w-100"
                                     src={maxixe0}
                                     alt="First slide"
-                                    style={{ objectFit: 'cover', height: '500px', width: '600px' }} /* Adjust the height as needed */
+                                    style={{ objectFit: 'cover', height: '500px', width: '700px' }} /* Adjust the height as needed */
                                 />
                                 <Carousel.Caption>
                                     <h3>maxixemagic</h3>
@@ -27,7 +27,7 @@ function CarouselComponent() {
                                     className="d-block w-100"
                                     src={maxixe1}
                                     alt="First slide"
-                                    style={{ objectFit: 'cover', height: '500px', width: '600px'  }} /* Adjust the height as needed */
+                                    style={{ objectFit: 'cover', height: '500px', width: '700px'  }} /* Adjust the height as needed */
                                 />
                                 <Carousel.Caption>
                                 <h3>maxixemagic</h3>
@@ -39,7 +39,7 @@ function CarouselComponent() {
                                     className="d-block w-100"
                                     src={maxixe2}
                                     alt="First slide"
-                                    style={{ objectFit: 'cover', height: '500px' , width: '600px' }} /* Adjust the height as needed */
+                                    style={{ objectFit: 'cover', height: '500px' , width: '700px' }} /* Adjust the height as needed */
                                 />
                                 <Carousel.Caption>
                                 <h3>maxixemagic</h3>
@@ -51,7 +51,7 @@ function CarouselComponent() {
                                     className="d-block w-100"
                                     src={maxixe3}
                                     alt="First slide"
-                                    style={{ objectFit: 'cover', height: '500px', width: '600px' }} /* Adjust the height as needed */
+                                    style={{ objectFit: 'cover', height: '500px', width: '700px' }} /* Adjust the height as needed */
                                 />
                                 <Carousel.Caption>
                                  <h3>maxixemagic</h3>
@@ -63,7 +63,7 @@ function CarouselComponent() {
                                     className="d-block w-100"
                                     src={maxixe4}
                                     alt="First slide"
-                                    style={{ objectFit: 'cover', height: '500px', width: '600px' }} /* Adjust the height as needed */
+                                    style={{ objectFit: 'cover', height: '500px', width: '700px' }} /* Adjust the height as needed */
                                 />
                                 <Carousel.Caption>
                                 <h3>maxixemagic</h3>
