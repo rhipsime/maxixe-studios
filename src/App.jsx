@@ -15,7 +15,9 @@ function App() {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Welcome to Maxixe Studios - Your source for beautiful jewellery and Horoscope insights!
+            Welcome to Maxixe Studios - Your source for Crystal Jewellery, Tarot sessions and Horoscope insights!
+
+            Maxixe Magic
           </p>
           <a
             className="App-link"
